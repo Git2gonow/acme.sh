@@ -12,7 +12,7 @@ LUA_Api="https://api.luadns.com/v1"
 ########  Public functions #####################
 
 #Usage: add  _acme-challenge.www.domain.com   "XKrxpRBosdIKFzxW_CT3KLZNf6q0HG9i01zxXp5CPBs"
-dns_lua_add() {
+dns_lua.sh_add() {
   fulldomain=$1
   txtvalue=$2
 
@@ -55,7 +55,7 @@ dns_lua_add() {
 }
 
 #fulldomain
-dns_lua_rm() {
+dns_lua.sh_rm() {
   fulldomain=$1
   txtvalue=$2
 
